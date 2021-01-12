@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vendur.a8dmusicrelaxer">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3168619350789612~3906083709"/>
+
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageOne"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageTwo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageThree"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageFour"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageFive"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageSix"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageSeven"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageEight"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageNine"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PageTen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureOne"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThree"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureFour"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureFive"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureSix"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureSeven"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureEight"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureNine"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureEleven"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwelve"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirteen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureFourteen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureFiveteen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureSixteen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureSeventeen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureEighteen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureNineteen"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwenty"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyOne"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyTwo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyThree"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyFour"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyFive"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentySix"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentySeven"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyEight"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureTwentyNine"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirty"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyOne"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyTwo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyThree"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyFour"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyFive"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtySix"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtySeven"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyEight"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureThirtyNine"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PictureForty"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        
+    </application>
+
+</manifest>

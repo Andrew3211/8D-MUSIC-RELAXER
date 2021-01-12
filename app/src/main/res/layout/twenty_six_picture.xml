@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/art_for_pic26">
+
+
+    <ImageView
+        android:id="@+id/play_music_btn"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/btn_play_music_white" />
+
+    <LinearLayout
+        android:id="@+id/container_for_btn36"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="235dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/line_for_btn36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_before_from_pic26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_before"
+                android:textSize="60sp">
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
